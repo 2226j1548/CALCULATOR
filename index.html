@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body style="background-color: rgb(42, 93, 128);">
+  <input type="text" id="display" readonly>
+  <div style="background-color:  rgb(23, 23, 77);" class="calculator" >
+    <div class="one">
+    <div class="div1">
+    <button id="up" onclick="clearDisplay()">C</button>
+    <button id="up" onclick="appendToDisplay('+/-')">+/-</button>
+    <button id="up" onclick="appendToDisplay('%')">%</button>
+    <button id="side" onclick="appendToDisplay('/')">/</button></div>
+    <div class="div2">
+    <button id="nor" onclick="appendToDisplay('7')">7</button>
+    <button id="nor" onclick="appendToDisplay('8')">8</button>
+    <button id="nor" onclick="appendToDisplay('9')">9</button>
+    <button id="side" onclick="appendToDisplay('*')">*</button></div>
+    <div class="div3">
+    <button id="nor" onclick="appendToDisplay('4')">4</button>
+    <button id="nor" onclick="appendToDisplay('5')">5</button>
+    <button id="nor" onclick="appendToDisplay('6')">6</button>
+    <button id="side" onclick="appendToDisplay('-')">-</button></div>
+    <div class="div4">
+    <button id="nor" onclick="appendToDisplay('1')">1</button>
+    <button id="nor" onclick="appendToDisplay('2')">2</button>
+    <button id="nor" onclick="appendToDisplay('3')">3</button>
+    <button id="side" onclick="appendToDisplay('+')">+</button></div>
+    <div class="div5">
+    <button  class="zero" onclick="appendToDisplay('0')">0</button>
+    <button id="nor" onclick="appendToDisplay('.')">.</button>
+    <button id="equal" onclick="calculate()">=</button></div></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+#display{
+    width: 350px;
+    margin-left: 540px;
+    background-color: rgb(198, 197, 197);
+    color: black;
+    margin-top: 50px;
+    text-align:end;
+    
+}
+input{
+    height: 150px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40px;
+    border: none;
+    font-size:xx-large;
+    font: weight 6000px;
+}
+.calculator{
+    height: 700px;
+    width:60;
+    border: 2px solid  black;
+    border-radius: 42px;
+    margin-left: 516px;
+    margin-right: 550px;
+  margin-top: -190px;
+    justify-content: center;
+    background-color:  rgb(23, 23, 77);
+    align-items: center;
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.75);
+}
+.div1{
+    margin-left:0px;
+    display: flex;
+
+}
+.div2{
+    margin-left: 0px;
+    display: flex;
+    
+}
+.div3{
+    margin-left: 0px;
+    display: flex;
+    
+}
+.div4{
+    margin-left: 0px;
+    display: flex;
+    
+}
+.div5{
+    margin-left: 0px;
+
+    display: flex;
+    
+}
+.zero{
+    width: 170px;
+}
+.zero:hover{
+    background-color: rgb(93, 93, 152) ;
+}
+.zero:active{
+    background-color: rgb(33, 33, 83) ;
+}
+button{
+    height:66px;
+    width:77px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+    background-color: rgb(61, 61, 103) ;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.75);
+    color:rgb(196, 191, 191);
+}
+.one{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+#up{
+    background-color: gray;
+    color: black;
+}
+#up:hover{
+    background-color: rgb(184, 176, 176);
+}
+#up:active{
+    background-color: rgb(112, 111, 111);
+}
+#side{
+    background-color: orange;
+    color: black;
+}
+#side:hover{
+    background-color: rgb(219, 122, 37);
+}
+#side:active{
+    background-color: rgb(215, 174, 98);
+}
+#equal{
+    background-color: rgb(56, 128, 177);
+    color: black;
+}
+#equal:hover{
+    background-color: rgb(119, 170, 204);
+}
+#equal:active{
+    background-color: rgb(30, 74, 103);
+}
+#nor{
+    background-color: rgb(61, 61, 103) ;
+}
+#nor:hover{
+    background-color: rgb(93, 93, 152) ;
+}
+#nor:active{
+    background-color:rgb(33, 33, 83)  ;
+}
